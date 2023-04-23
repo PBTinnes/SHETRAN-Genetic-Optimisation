@@ -1,0 +1,44 @@
+ XML filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\Jmatlabmodel.xm
+ l
+ 
+ DEM filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\demnosinks.txt
+ Minimum DEM filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\DEMwithsinks36x
+ 50.txt
+ Catchment Mask filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\catchmymask - C
+ opy.txt
+ Land use distribution filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\landuse36x50.tx
+ t
+ Soil category distribution filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\catchmymask - C
+ opy.txt
+ No lake map specified
+ Precipitation Distribution Filename = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\Raincatchment.t
+ xt
+ Potential Evaporation Distribution Filname = 
+ W:\Year 3\Research Project\EastDartStandard\Sensitvity analysis\PETcatchment.tx
+ t
+ Precpitation data = rainfallcalib.csv
+ Potential Evaporation data = PETcalib.csv
+ Number of river chanel sinks =            2
+ Number of river chanel sinks =            1
+ Number of river chanel sinks =            0
+ 
+  Number of land element sinks =           14
+  Number of land element sinks =            6
+  Number of land element sinks =            8
+  Number of land element sinks =            8
+  Number of land element sinks =            8
+  Number of land element sinks =            8
+  Number of land element sinks =            8
+  Number of land element sinks =            8
+  Number of land element sinks =            6
+  Number of land element sinks =            6
+  Number of land element sinks =            6
+  Number of land element sinks =            2
+  Number of land element sinks =            0

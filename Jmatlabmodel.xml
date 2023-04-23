@@ -1,0 +1,45 @@
+<?xml version="1.0"?><ShetranInput>
+<ProjectFile>Jmatlabmodel.xml</ProjectFile>
+<CatchmentName>East</CatchmentName>
+<DEMMeanFileName>demnosinks.txt</DEMMeanFileName>
+<DEMminFileName>DEMwithsinks36x50.txt<DEMminFileName>
+<MaskFileName>catchmymask - Copy.txt</MaskFileName>
+<VegMap>landuse36x50.txt</VegMap>
+<SoilMap>catchmymask - Copy.txt</SoilMap>
+<LakeMap></LakeMap>
+<PrecipMap>Raincatchment.txt</PrecipMap>
+<PeMap>PETcatchment.txt</PeMap>
+<VegetationDetails><VegetationDetail>Veg Type #, Vegetation Type, Canopy storage capacity (mm), Leaf area index, Maximum rooting depth(m), AE/PE at field capacity,Strickler overland flow coefficient</VegetationDetail>
+<VegetationDetail>1,  EvergreenForest,  2.9869,  11.5388,  1.8815,  2.9653, 1.6837</VegetationDetail>
+<VegetationDetail>2,  DeciduousForest,  2.9869,  11.5388,  1.4112,  2.9653, 1.6837</VegetationDetail>
+<VegetationDetail>4,  ImprovedGrassArable,  0.89606,  7.6925,  1.0524,  0.26192, 1.6837</VegetationDetail>
+<VegetationDetail>6,  Urban,  0,  0.3,  0.65776,  0, 1.6837</VegetationDetail>
+<VegetationDetail>7,  AcidGrassLand,  0.89606,  1.9231,  1.3155,  0.052383, 1.6837</VegetationDetail>
+<VegetationDetail>8,  Bog,  0.89606,  1.9231,  1.3155,  0.052383, 1.6837</VegetationDetail>
+</VegetationDetails>
+<SoilProperties>
+<SoilProperty>Soil Number,Soil Type, Saturated Water Content, Residual Water Content, Saturated Conductivity (m/day), vanGenuchten- alpha (cm-1), vanGenuchten-n</SoilProperty>
+<SoilProperty>1,SandyClayLoam(65Sand:24Clay), 0.461,   0.167, 0.5042,   1.24E-02,  2</SoilProperty>
+</SoilProperties>
+<SoilDetails>
+<SoilDetail>Soil Category, Soil Layer, Soil Type, Depth at base of layer (m)</SoilDetail>
+<SoilDetail>1, 1, 1, 2.4598 </SoilDetail>
+</SoilDetails>
+<InitialConditions>0.11956</InitialConditions>
+<PrecipitationTimeSeriesData>rainfallcalib.csv</PrecipitationTimeSeriesData>
+<PrecipitationTimeStep>24</PrecipitationTimeStep>
+<EvaporationTimeSeriesData>PETcalib.csv</EvaporationTimeSeriesData>
+<EvaporationTimeStep>24</EvaporationTimeStep>
+<StartDay>1</StartDay>
+<StartMonth>1</StartMonth>
+<StartYear>2000</StartYear>
+<EndDay>31</EndDay>
+<EndMonth>12</EndMonth>
+<EndYear>2010</EndYear>
+<MinimumDropBetweenChannels>12.1071</MinimumDropBetweenChannels>
+<RiverGridSquaresAccumulated>49.919</RiverGridSquaresAccumulated>
+<DropFromGridToChannelDepth>27.672</DropFromGridToChannelDepth>
+<RegularTimestep>1</RegularTimestep>
+<IncreasingTimestep>0.01</IncreasingTimestep>
+<SimulatedDischargeTimestep>24.0</SimulatedDischargeTimestep>
+</ShetranInput>
